@@ -2,7 +2,7 @@ scores = []
 puts "How many scores? "
 n = gets.chomp.to_i
 
-while n < 1 do 
+while n <= 1 do 
   puts "Invalid number of scores";
   puts "How many scores? "
   n = gets.chomp.to_i
